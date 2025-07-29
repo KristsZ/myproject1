@@ -87,7 +87,7 @@ export default function Header() {
 
       {/* Mobile Fullscreen Menu */}
       {isOpen && (
-        <div className={`fixed inset-0 bg-opacity-95 backdrop-blur-sm flex flex-col items-center justify-center space-y-8 z-40 `}>
+        <div className={`fixed inset-0 bg-opacity-95 backdrop-blur-sm flex flex-col items-center justify-center space-y-8 z-40 text-white`}>
           <button
             onClick={toggleMenu}
             className="absolute top-6 right-6 text-5xl text-gray-700 hover:text-red-500 transition"
