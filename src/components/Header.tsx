@@ -4,7 +4,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Dancing_Script } from "next/font/google";
-import Image from 'next/image';
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
