@@ -87,9 +87,7 @@ export default function Header() {
 
       {/* Mobile Fullscreen Menu */}
       {isOpen && (
-        <div className={`fixed top-4 left-1/2 transform -translate-x-1/2 z-50 shadow bg-white/30 backdrop-blur-sm border-b border-white/20 transition-transform duration-300 max-w-5xl w-full rounded-b-lg ${
-    isVisible ? 'translate-y-0' : '-translate-y-full'
-  }`}>
+        <div className={`fixed inset-0 bg-opacity-95 backdrop-blur-sm flex flex-col items-center justify-center space-y-8 z-40 `}>
           <button
             onClick={toggleMenu}
             className="absolute top-6 right-6 text-5xl text-gray-700 hover:text-red-500 transition"
