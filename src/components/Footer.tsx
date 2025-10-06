@@ -25,10 +25,10 @@ export default function Footer() {
             {/* Telefons un epasts ar ikonām */}
             <div className='flex gap-6'>
               <a 
-                href="tel:+37129671595" 
+                href="tel:+3711111111" 
                 className='hover:text-white transition-colors flex items-center gap-2'
               >
-                <FaPhone /> <span className="hidden sm:inline">+371 29671595</span>
+                <FaPhone /> <span className="hidden sm:inline">+371 1111111</span>
               </a>
               <a 
                 href="mailto:krists.zarans@gmail.com" 
