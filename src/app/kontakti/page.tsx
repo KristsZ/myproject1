@@ -50,10 +50,10 @@ export default function ContactSection() {
                 <FaPhone className="text-4xl text-blue-400 mb-4 drop-shadow" />
                 <h3 className="text-2xl font-semibold mb-3">Telefons</h3>
                 <a 
-                  href="tel:+37129671595" 
+                  href="tel:+3711111111" 
                   className="text-blue-300 hover:text-blue-200 text-xl transition-colors"
                 >
-                  +371 29671595
+                  +371 1111111
                 </a>
               </div>
             </div>
